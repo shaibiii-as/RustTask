@@ -1,0 +1,15 @@
+[package]
+name = "dlog_proof"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+sha2 = "0.9"
+
+[dependencies.curv-kzen]
+version = "0.10"
+default-features = false
+
+[features]
+default = ["curv-kzen/rust-gmp-kzen"]
